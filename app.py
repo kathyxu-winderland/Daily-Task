@@ -73,4 +73,4 @@ if st.button("🗑️ Clear Completed Tasks"):
     tasks["work"] = [t for t in tasks["work"] if not t["done"]]
     tasks["personal"] = [t for t in tasks["personal"] if not t["done"]]
     save_tasks(tasks)
-    st.rerun()
+    st.rerun()https://github.com/kathyxu-winderland/Daily-Task.git
